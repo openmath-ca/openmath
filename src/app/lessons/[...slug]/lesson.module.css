@@ -1,0 +1,77 @@
+/* ✅ Matches all pages */
+.pageWrapper {
+  min-height: 100vh;
+  background-color: var(--lesson-background);
+  color: var(--text-light);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ✅ Dark mode with new extracted background */
+.darkMode {
+  background-color: var(--lesson-background-dark);
+  color: var(--text-dark);
+}
+
+
+/* ✅ Lesson content layout */
+.lessonContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* ✅ Proper text spacing */
+.contentWrapper {
+  line-height: 1.7;
+}
+
+/* ✅ Headings - Fix colors */
+.contentWrapper h1,
+.contentWrapper h2,
+.contentWrapper h3,
+.contentWrapper h4,
+.contentWrapper h5,
+.contentWrapper h6 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+/* Match the exact text colors */
+.contentWrapper h1 {
+  font-size: 3rem;
+}
+
+.contentWrapper h2 {
+  font-size: 2.4rem;
+}
+
+.contentWrapper h3 {
+  font-size: 2.1rem;
+}
+
+/* ✅ Fix paragraph styles */
+.contentWrapper p, .contentWrapper span {
+  font-size: 1.3rem;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+
+
+
+
+/* ✅ Error message */
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ✅ Theme colors (Copied from lessons/page.tsx) */
+:root {
+  --text-light: #212529;
+  --text-dark: #e6edf3;
+  
+}

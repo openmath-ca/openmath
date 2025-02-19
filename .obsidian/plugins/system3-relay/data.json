@@ -1,0 +1,16 @@
+{
+  "sharedFolders": [
+    {
+      "guid": "29c8b858-1946-411a-9cb4-54eaa07ca5e0",
+      "path": "lessons",
+      "relay": "19b722e7-87e3-43ec-a699-a7b089b34670"
+    }
+  ],
+  "debugging": false,
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDownloadOnAddToVault": false,
+  "enableUploadOnShare": false,
+  "enableDocumentStatus": false,
+  "enableDebugFileTag": false,
+  "enableNewLinkFormat": false
+}

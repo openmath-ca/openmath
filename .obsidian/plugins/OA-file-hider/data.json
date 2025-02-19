@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "tsconfig.json",
+    "tailwind.config.ts",
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "next.config.ts",
+    "next-env.d.ts",
+    "src",
+    "public",
+    "node_modules"
+  ]
+}

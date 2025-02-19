@@ -1,0 +1,75 @@
+/* ✅ Page wrapper should take up the full screen */
+.pageWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lesson-background); /* Matches the global background */
+  color: var(--text-light);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ✅ Dark Mode */
+.darkMode {
+  background-color: var(--lesson-background-dark);
+  color: var(--text-dark);
+}
+
+/* ✅ ReactFlow should be fullscreen */
+.reactFlow {
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Makes sure it matches the page */
+}
+
+/* ✅ ReactFlow container */
+.flowContainer {
+  width: 100%;
+  height: 80vh; /* Ensure there's enough space for React Flow */
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--card-background);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ✅ Loading text */
+.loadingText {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-light);
+  text-align: center;
+}
+
+/* ✅ Footer */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ✅ Footer Link */
+.footerLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footerLink:hover {
+  color: var(--secondary-color);
+}
+
+:root {
+  --text-light: #212529;
+  --text-dark: #e6edf3;
+}
+
+

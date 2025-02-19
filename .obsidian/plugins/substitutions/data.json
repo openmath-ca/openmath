@@ -1,0 +1,19 @@
+{
+  "initialized": true,
+  "version": "0.1.0",
+  "substitutions": {
+    "initialized": true,
+    "records": [
+      {
+        "from": ";;g",
+        "to": "<span style={{color: g}}></span>",
+        "enabled": true
+      },
+      {
+        "from": ";;link",
+        "to": "<span style={link}>[name](/lessons/)</span>",
+        "enabled": true
+      }
+    ]
+  }
+}
